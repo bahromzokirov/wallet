@@ -1,4 +1,4 @@
-module github.com/bahromzokirov/wallet
+module github.com/bahromzokirov/wallet/v1
 
 go 1.17
 
