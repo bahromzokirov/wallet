@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/google/uuid"
-	"github.com/bahromzokirov/wallet/pkg/types"
+	"github.com/bahromzokirov/wallet/v1/pkg/types"
 )
 
 var (
