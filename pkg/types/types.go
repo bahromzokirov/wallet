@@ -12,17 +12,19 @@ const (
 	PaymentStatusInProgress PaymentStatus = "INPROGRESS"
 )
 
-type Payment struct {
-	ID string
-	Amount Money
-	Category PaymentCategory
-	Status PaymentStatus
+type Account struct {
+	ID int64
+	Phone Phone 
+	Balance Money
 }
 
 type Phone string 
 
-type Account struct {
+type Payment struct {
 	ID int64
 	Phone Phone
 	Balance Money
+	Amount    Money
+	Category  PaymentCategory
+	Status    PaymentStatus
 }
